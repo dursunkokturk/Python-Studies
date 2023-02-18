@@ -1,0 +1,16 @@
+# Set lerde Girilen Data larin Belirli Bir indis Sirasi Yoktur
+# Yeni Bir Data Girildiginde Yazdirma Siralamasi Rastgele Olur
+
+# Clear Fonksiyonu Ile
+# Set Icindeki Data larin Hepsini Tek Seferde Silme Islemi Yapiyoruz
+
+studentsSet = {"Engin","Derin","Salih","Ahmet"}
+print(studentsSet)
+
+for student in studentsSet:
+    print(student)
+    
+print("Clear Fonksiyonu Ile")
+print("Set Icindeki Data larin Hepsini Tek Seferde Silme")
+studentsSet.clear()
+print(studentsSet)
